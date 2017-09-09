@@ -1,7 +1,7 @@
 # Get in touch
 
 
-<div class="grid">
+<div class="grid responsive">
 <div class="third">
 {% markdown %}
 ## E-mail

@@ -31,7 +31,7 @@
 {% endmarkdown %}
 
 </div>
-
+<div style="padding-bottom: 20px"></div>
 <figure>
 	<img src="/picture_lars.jpg" />
 	<figcaption>Pretty intense guy with a lot of passion</figcaption>
