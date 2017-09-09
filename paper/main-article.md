@@ -3,7 +3,7 @@
 
 <div class="main" style="margin-bottom:50px">
 
-<p>**I am 20 years old, genuinely interested in programming, and eager to work and collabarate at bigger projects**</p>
+<p>**I am 20 years old, genuinely interested in programming, and eager to work and collabarate in bigger projects**</p>
 
 <p class="byline">By Lars Karbo<br>[mail@larskarbo.no](mailto:mail@larskarbo.no)</p>
 

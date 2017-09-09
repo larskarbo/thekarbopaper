@@ -25,7 +25,7 @@ I have 4 good projects on GitHub
 
 ## Twitter
 
-I have 1 tweet on twitter
+I have 2 tweets on twitter
 
 [@larskarbo](https://twitter.com/larskarbo)
 {% endmarkdown %}

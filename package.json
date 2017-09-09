@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp watch & NODE_ENV=development nodemon server",
+    "prod": "gulp sass && NODE_ENV=production node server"
   },
   "author": "",
   "license": "ISC",

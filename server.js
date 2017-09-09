@@ -9,7 +9,7 @@ var marked = require('marked')
 var env = nunjucks.configure('paper', {
     autoescape: true,
     express: app,
-    noCache: true
+    noCache: process.env.NODE_ENV == 'development'
 })
 
 markdown.register(env, marked)
@@ -23,5 +23,5 @@ app.get('/', function(req, res) {
 
 var port = process.env.PORT || 2017
 app.listen(port, function () {
-  console.log(`listening at ${port}`)
+  console.log(`listening at ${port} in ${process.env.NODE_ENV} mode`)
 })
