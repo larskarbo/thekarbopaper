@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Lars Karbo - The Karbo Paper</title>
+		<link rel="stylesheet" type="text/css" href="/styles.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="paper">
+				<div class="marg">
+					<header>
+						<div class="double-line"></div>
+						<div class="logo"><img src="/logo.gif" /></div>
+						<div class="double-line"></div>
+						★ a newspaper style resumé ★ contact for opportunities
+						<div class="double-line-inv"></div>
+					</header>
+
+					<article class="main-article">
+						{% markdown 'main-article.md' %}
+					</article>
+
+					<article class="main-article">
+						{% markdown 'weather-forecast.md' %}
+					</article>
+
+					<article class="main-article">
+						{% markdown 'contact-info.md' %}
+					</article>
+
+					<article class="main-article">
+						<blockquote>
+							Lars is a dedicated guy with lots of talent, but sometimes he forgets his jacket at home
+							<div class="name">- future employer</div>
+						</blockquote>
+					</article>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
