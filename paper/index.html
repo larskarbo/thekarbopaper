@@ -2,37 +2,42 @@
 	<head>
 		<title>Lars Karbo - The Karbo Paper</title>
 		<link rel="stylesheet" type="text/css" href="/styles.css" />
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 	</head>
 	<body>
 		<div class="wrapper">
 			<div class="paper">
 				<div class="marg">
 					<header>
-						<div class="double-line"></div>
 						<div class="logo"><img src="/logo.gif" /></div>
-						<div class="double-line"></div>
-						★ a newspaper style resumé ★ contact for opportunities
+						★ a newspaper style resume ★ contact for opportunities
 						<div class="double-line-inv"></div>
 					</header>
 
-					<article class="main-article">
+					<article>
 						{% markdown 'main-article.md' %}
 					</article>
 
-					<article class="main-article">
-						{% markdown 'weather-forecast.md' %}
+					<article>
+						{% include 'weather-forecast.html' %}
 					</article>
 
-					<article class="main-article">
+					<article>
 						{% markdown 'contact-info.md' %}
 					</article>
 
-					<article class="main-article">
+					<!-- <article>
 						<blockquote>
 							Lars is a dedicated guy with lots of talent, but sometimes he forgets his jacket at home
 							<div class="name">- future employer</div>
 						</blockquote>
-					</article>
+					</article> -->
+
+					<footer>
+						{% markdown %}
+						★ mail@larskarbo.no ★ [github.com/larskarbo](https://github.com/larskarbo) ★ weather icons by [Linector](https://www.flaticon.com/authors/linector)
+						{% endmarkdown %}
+					</footer>
 				</div>
 			</div>
 		</div>

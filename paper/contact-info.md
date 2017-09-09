@@ -6,9 +6,8 @@
 {% markdown %}
 ## E-mail
 
-I have a cool email signature
 
-mail@larskarbo.no ([mailto](mailto:mail@larskarbo.no))
+[mail@larskarbo.no](mailto:mail@larskarbo.no)
 {% endmarkdown %}
 </div>
 <div class="third">
@@ -18,7 +17,7 @@ mail@larskarbo.no ([mailto](mailto:mail@larskarbo.no))
 
 I have 4 good projects on GitHub
 
-[@larskarbo](https://github.com/larskarbo)
+[github.com/larskarbo](https://github.com/larskarbo)
 {% endmarkdown %}
 </div>
 <div class="third">

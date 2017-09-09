@@ -1,23 +1,34 @@
 # Lars Karbo For Hire
 
 
-<div class="main">
+<div class="main" style="margin-bottom:50px">
 
-<p>**After years of institutions and obligations, he is finally free and ready to explore the world of bosses, teams and other things**</p>
+<p>**I am 20 years old, genuinely interested in programming, and eager to work and collabarate at bigger projects**</p>
 
-<p class="byline">By Lars Karbo<br>mail@larskarbo.no</p>
+<p class="byline">By Lars Karbo<br>[mail@larskarbo.no](mailto:mail@larskarbo.no)</p>
 
-<p>Lars Karbo - an interesting fellow with a lot of good and bad ideas - is a man you want to know. The last years, he has become a nifty web developer in many areas, both front-end and back-end.</p>
+<p>I have been interested in web development for years, and love to solve problems and build great stuff</p>
 
-<p>He is a pretty dedicated guy that burns for what he's doing. Creative solutions are his forté and he loves to think outside the box</p>
+{% markdown %}
+	const language = 'javascript'
+	var msg = ´${language} is my
+	 strongest language´
+	console.log(msg)
+{% endmarkdown %}
 
-<h2>Ready for new challenges</h2>
+<h2>Love to be creative</h2>
 
-<p>Through his work, Karbo stribes to meet new challenges and find the best solutions possible. - I love to learn new things and ways to do things. There are always many different ways to achieve something and it is not always easy to know which one is the best.</p>
+<p>I find motivation in doing things different. To present thing in a way that is surprising yet simple</p>
 
-<h2>Not a code ninja</h2>
+<p>This has always triggered me. I want to work with other people and collabarate to build and create solutions</p>
 
-<p>- Some people think that I am a code ninja. I am not</p>
+<h2 style="margin-bottom: 10px">Ready for new challenges</h2>
+
+{% markdown %}
+	while lars
+		print("but I love to learn
+		and explore new things")
+{% endmarkdown %}
 
 </div>
 
@@ -39,6 +50,7 @@
 	* [https://napchart.com/](https://napchart.com/)
 * Moonliter 50 hours at startup
 	* [Secondbrain](http://secondbrain.ai/)
+* Looking for work now
 
 
 <p>**Good at:** Front-end, javascript, React, Redux, CSS, Node.js, HTML5</p>

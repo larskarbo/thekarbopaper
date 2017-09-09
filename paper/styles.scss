@@ -13,10 +13,12 @@ body {
 .paper {
 	max-width: 840px;
 	padding:10px;
-	padding-bottom: 140px
+	padding-bottom: 10px
 }
 
 .double-line {
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
 	height: 3px
 }
 
@@ -30,20 +32,47 @@ body {
 	img {
 		width: 100%
 	}
+	margin-bottom:4px
 }
 
 header {
 	margin-bottom:0;
 }
+
+footer {
+	margin-top: 120px;
+	p {
+		margin-bottom: 4px
+	}
+}
+
+pre {
+	background: #e0ddbb;
+    margin: 0;
+    padding: 10px;
+}
+
 h2 {
 			font-size: 18px;
 			letter-spacing: -0.2;
 			margin-bottom: -5px;
 		}
 
+.main p:first-of-type:first-letter, .first:first-letter {
+  float: left;
+
+  color: black;
+  font-size: 60px;
+  margin: -5px 4px -10px -4px;
+  font-family: Sorts Mill Goudy, Playfair Display;
+  font-weight: normal;
+
+  /* To make it not overflow the rest of the text I'd suggest adding a line-height */
+  line-height: 60px;
+}
 
 article {
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	h1 {
 		font-size: 72px;
 		margin:15px 0 10px;
@@ -55,6 +84,7 @@ article {
 	}
 
 	.main {
+
 		column-count: 3;
 		column-gap: 3em;
 		text-align: justify;
@@ -73,23 +103,12 @@ article {
 		
 		
 
-		p:first-of-type:first-letter {
-		  float: left;
-
-		  color: black;
-		  font-size: 60px;
-		  margin: -5px 2px -10px -4px;
-		  font-family: Sorts Mill Goudy, Playfair Display;
-		  font-weight: normal;
-
-		  /* To make it not overflow the rest of the text I'd suggest adding a line-height */
-		  line-height: 60px;
-		}
+		
 	}
 
 	.infobox {
 		width:calc(50% - 30px);
-		background: #e8df7f;
+		background: #e0ddbb;
 		padding: 5px 20px 20px;
 		margin-top: 20px;
 	}
@@ -98,7 +117,7 @@ article {
 		float: right;
 		width: calc(50% - 30px);
 		margin:0;
-		margin-top: 20px;
+		// margin-top: 20px;
 
 		img {
 			width: 100%;
@@ -119,11 +138,19 @@ article {
 		grid-row:1;
 		padding:0 10px
 	}
+
+	&.weather {
+		text-align: center;
+		img {
+			margin-top: 6px;
+			filter: sepia(42%);
+		}
+	}
 }
 
 blockquote {
 	font-size: 40px;
-    padding: 150px 50px 100px;
+    padding: 50px 50px 50px;
     color: #3c3c3c;
 
     .name {
@@ -131,4 +158,16 @@ blockquote {
     	text-align: right;
     	color:black
     }
+}
+
+// links
+
+a:link, a:visited {
+	color: #866417;
+	text-decoration: none;
+	font-weight: bold
+}
+
+a:hover {
+	text-decoration: underline;
 }
