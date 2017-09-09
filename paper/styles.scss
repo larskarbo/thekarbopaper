@@ -41,7 +41,7 @@ header {
 	margin-bottom:0;
 	font-size:16px;
 	@media all and (max-width: 550px) {
-		font-size:13px;
+		font-size:12px;
 	}
 }
 
@@ -49,6 +49,9 @@ footer {
 	margin-top: 120px;
 	p {
 		margin-bottom: 4px
+	}
+	@media all and (max-width: 550px) {
+		font-size:12px;
 	}
 }
 
@@ -135,6 +138,9 @@ article {
 		background: #e0ddbb;
 		padding: 5px 20px 20px;
 		margin-top: 20px;
+		@media all and (max-width: 700px) {
+			width: calc(100% - 40px);
+		}
 	}
 
 	figure {
@@ -142,6 +148,11 @@ article {
 		width: calc(50% - 30px);
 		margin:0;
 		// margin-top: 20px;
+		@media all and (max-width: 700px) {
+			width: 100%;
+			float: none;
+			display: block;
+		}
 
 		img {
 			width: 100%;
@@ -159,7 +170,7 @@ article {
 	grid-auto-columns: 33%;
 	.item {
 		grid-row:1;
-		padding:0 10px
+		padding:10px 10px
 	}
 	text-align: center;
 	img {
