@@ -3,7 +3,7 @@
 
 <div class="main" style="margin-bottom:50px">
 
-<p>**I am 20 years old, genuinely interested in programming, and eager to work and collabarate in bigger projects**</p>
+<p>**I am 20 years old, genuinely interested in programming, and eager to begin working in bigger projects**</p>
 
 <p class="byline">By Lars Karbo<br>[mail@larskarbo.no](mailto:mail@larskarbo.no)</p>
 
@@ -16,11 +16,11 @@
 	console.log(msg)
 {% endmarkdown %}
 
-<h2>Love to be creative</h2>
+<h2>Love being creative</h2>
 
 <p>I find motivation in doing things different. To present thing in a way that is surprising yet simple</p>
 
-<p>This has always triggered me. I want to work with other people and collabarate to build and create solutions</p>
+<p>I want to work with other people and collabarate to build and create solutions. This is what I burn for</p>
 
 <h2 style="margin-bottom: 10px">Ready for new challenges</h2>
 
@@ -34,7 +34,7 @@
 <div style="padding-bottom: 20px"></div>
 <figure>
 	<img src="/picture_lars.jpg" />
-	<figcaption>Pretty intense guy with a lot of passion</figcaption>
+	<figcaption>Very intense fellow with a lot of passion for developing</figcaption>
 </figure>
 
 <div class="infobox">
